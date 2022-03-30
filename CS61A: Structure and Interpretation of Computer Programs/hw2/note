@@ -1,0 +1,31 @@
+# 1.While Loop and two method to break
+def end(n, d):
+    """Print the final digits of N in reverse order untill D is found
+    >>> end(34567,5)
+    7
+    6
+    5
+    """
+    while n % 10 != d:
+        print(n % 10)
+        n = n // 10
+    print(d)
+
+
+""""another way to write, using if to break the while loop """
+
+def end(n, d):
+    """Print the final digits of N in reverse order untill D is found
+    >>> end(34567,5)
+    7
+    6
+    5
+    """
+    while n > 0:
+        last, n = n % 10, n // 10
+        print(last)
+        if d == last:
+           return None
+           
+ # 2. if 0 equal to if False 
+      if any number equal to if True
