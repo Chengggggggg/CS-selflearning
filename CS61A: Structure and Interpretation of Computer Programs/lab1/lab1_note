@@ -1,0 +1,7 @@
+"""
+1. and 
+      -gives the first False Value
+      -or the last value if all values are True
+2. or 
+      -give the first True Value
+      -or the last value if all values are False
