@@ -1,7 +1,7 @@
 #function I am not familar with 
 ''' 1. range()
        range(start,stop,step)
-example: x=range(3,20,2)
+       x=range(3,20,2)
          for n in x:
              print(n)
    
